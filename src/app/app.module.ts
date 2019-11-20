@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { FullCalendarModule } from '@fullcalendar/angular';
+import { PageContentComponent } from './page-content/page-content.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PageContentComponent
   ],
   imports: [
     BrowserModule,

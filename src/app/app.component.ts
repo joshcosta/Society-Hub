@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import dayGridPlugin from '@fullcalendar/daygrid';
+import googleCalendar from '@fullcalendar/google-calendar';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'society-hub';
+  calendarPlugins = [dayGridPlugin, googleCalendar];
 }

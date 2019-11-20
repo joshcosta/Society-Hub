@@ -1,0 +1,19 @@
+h1 {
+  font-family: "Roboto";
+  font-weight: 400;
+  padding: 2rem;
+  background-color: #500000;
+  color: #ffffff;
+  margin: 0rem;
+}
+.cal-wrapper {
+  margin: auto;
+  width: fit-content;
+  padding-top: 2rem;
+}
+img {
+  width: 8rem;
+  top:0rem;
+  left:2rem;
+  position: absolute;
+}
